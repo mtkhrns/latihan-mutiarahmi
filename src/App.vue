@@ -5,8 +5,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container-md">
     <a class="navbar-brand" href="#">GPP System</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -29,16 +29,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <router-view/>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
 
 
 
